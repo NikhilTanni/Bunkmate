@@ -1,14 +1,79 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
+<ion-fab bottom right>
+  <button ion-fab mini (click)="toggle_mod_info()"><ion-icon name="ios-information-circle-outline"></ion-icon></button>
+</ion-fab>
+<div class="info_modal_container" *ngIf="mod_info==1" (click)="toggle_mod_info()">
+</div>
+  <div class="info_modal" *ngIf="mod_info==1">
+    <h2 style='text-align:center;border-bottom:1px solid grey'>BunkMate app</h2>
+    <h4 style="text-align:center">
+      Designed & developed by Nikhil. Stay tuned for more apps!<br/>
+      <span style='font-size:250%;'><a href="http://facebook.com/nikhiltanni"><ion-icon name="logo-facebook"></ion-icon></a></span> &nbsp;&nbsp;
+      <span style='font-size:250%'><a href="#" (click)="mail('nikhiltanni97@gmail.com?subject=Bunkmate%20app%20')"><ion-icon name="md-mail"></ion-icon></a></span>
+    </h4>
+  </div>
+<ion-content padding-top>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <hr/>
+  <h1 padding style="color:rgb(255, 191, 0)">BU<span style='color:#0080ff'>N</span>KMATE - Help you Bunk!</h1>
+
+  <ion-card>
+    <ion-card-content>
+        <ion-item>
+          <ion-label stacked style="color: black"><b><span style="color:rgb(255, 191, 0)">C</span>lasses <span style="color:rgb(255, 191, 0)">C</span>onducted</b></ion-label>
+          <ion-input type="number" [(ngModel)]="conducted"#conducted_inp (keyup)="check_valid_input()" placeholder="# of classes conducted" autofocus></ion-input>
+        </ion-item>
+        <hr/>
+        <ion-item>
+          <ion-label stacked style="color: black"><b><span style="color:rgb(255, 191, 0)">C</span>lasses <span style="color:rgb(255, 191, 0)">P</span>resent</b></ion-label>
+          <ion-input type="number" [(ngModel)]="present" (keyup)="check_valid_input()" placeholder="# of classes present"></ion-input>
+        </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-item class="radio_inp">
+        <div class="radio">
+          <input id="radio-50" name="radio_percent" type="radio" (click)="radio_change(50)">
+          <label for="radio-50" class="radio-label">50%</label>
+
+          <input id="radio-60" name="radio_percent" type="radio" (click)="radio_change(60)">
+          <label for="radio-60" class="radio-label">60%</label>
+
+          <input id="radio-70" name="radio_percent" type="radio" (click)="radio_change(70)">
+          <label for="radio-70" class="radio-label">70%</label>
+        </div>
+        <div class="radio">
+          <input id="radio-75" name="radio_percent" type="radio" (click)="radio_change(75)">
+          <label for="radio-75" class="radio-label">75%</label>
+
+          <input id="radio-80" name="radio_percent" type="radio" (click)="radio_change(80)">
+          <label for="radio-80" class="radio-label">80%</label>
+
+          <input id="radio-85" name="radio_percent" type="radio" checked  (click)="radio_change(85)">
+          <label for="radio-85" class="radio-label">85%</label>
+        </div>
+        <div class="radio">
+          <input id="radio-90" name="radio_percent" type="radio" (click)="radio_change(90)">
+          <label for="radio-90" class="radio-label">90%</label>
+
+          <input id="radio-95" name="radio_percent" type="radio"  (click)="radio_change(95)">
+          <label for="radio-95" class="radio-label">95%</label>
+
+          <input id="radio-cus" name="radio_percent" type="radio"  (click)="radio_change(999)" [checked]="percent_mode==999">
+          <label for="radio-cus" class="radio-label"><input type="number" (keyup)="radio_change(999)" class="radio_cus_input" [(ngModel)]="percent_radio_cus" placeholder="other"/></label>
+
+
+        </div>
+
+      </ion-item>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <h2 class="emotion_display"><span>{{result.emotion}}</span><ion-icon style="margin-left:10px;" name="{{result.icon}}" color="{{result.iconcolor}}"></ion-icon></h2><hr/>
+      <h2 class="att_display"><span>{{result.att}}</span></h2>
+      <h2 class="msg_display"><span>{{result.msg}}</span></h2>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
