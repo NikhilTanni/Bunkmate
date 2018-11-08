@@ -31,13 +31,13 @@ export class HomePage {
 
   init_ga(){
     this.ga.startTrackerWithId('UA-127384723-3')
-     .then(() => {
-       console.log('Google analytics is ready now');
-        this.ga.trackView('Bunkmate_app_home');
-       // Tracker is ready
-       // You can now track pages or set additional information such as AppVersion or UserId
-     })
-     .catch(e => console.log('Error starting GoogleAnalytics', e));
+   .then(() => {
+     console.log('Google analytics is ready now');
+      this.ga.trackView('Bunkmate');
+     // Tracker is ready
+     // You can now track pages or set additional information such as AppVersion or UserId
+   })
+   .catch(e => console.log('Error starting GoogleAnalytics', e));
   }
 
 
