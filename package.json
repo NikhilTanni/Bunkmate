@@ -27,7 +27,6 @@
     "@ionic-native/status-bar": "~4.15.0",
     "@ionic/storage": "2.2.0",
     "cordova-plugin-device": "^2.0.2",
-    "cordova-plugin-firebase-analytics": "^1.0.1",
     "cordova-plugin-google-analytics": "^1.8.6",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^2.0.0",
@@ -57,9 +56,6 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-google-analytics": {
         "GMS_VERSION": "11.0.1"
-      },
-      "cordova-plugin-firebase-analytics": {
-        "FIREBASE_CORE_VERSION": "16.0.+"
       }
     }
   }

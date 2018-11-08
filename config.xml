@@ -3,7 +3,7 @@
     <name>bunkmate</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://172.0.0.100:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -60,7 +60,5 @@
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
         <variable name="GMS_VERSION" value="11.0.1" />
     </plugin>
-    <plugin name="cordova-plugin-firebase-analytics" spec="^1.0.1">
-        <variable name="FIREBASE_CORE_VERSION" value="16.0.+" />
-    </plugin>
+    <allow-navigation href="http://172.0.0.100:8100" sessionid="da8f47be" />
 </widget>

@@ -30,7 +30,7 @@ export class HomePage {
   }
 
   init_ga(){
-    this.ga.startTrackerWithId('UA-127384723-1')
+    this.ga.startTrackerWithId('UA-127384723-3')
      .then(() => {
        console.log('Google analytics is ready now');
         this.ga.trackView('Bunkmate_app_home');

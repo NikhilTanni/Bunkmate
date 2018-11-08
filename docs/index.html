@@ -1,13 +1,123 @@
 <html>
   <head>
     <title>Bunkmate app - nikk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enjoy hassle free calculation and get classes you can bunk without getting below your attendance requirement. Download this app and calculate your Attendance, Bunking and more!">
     <meta name="og:title" property="og:title" content="Bunkmate Nikhil Tanni">
     <meta name="og:description" property="og:description" content="Enjoy hassle free calculation and get classes you can bunk without getting below your attendance requirement. Download this app and calculate your Attendance, Bunking and more!">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127384723-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127384723-3');
+    </script>
+
+    <style>
+
+      .buttonDownload {
+      display: inline-block;
+      position: relative;
+      padding: 10px 25px;
+
+      background-color: #4CC713;
+      color: white;
+
+      font-family: sans-serif;
+      text-decoration: none;
+      font-size: 0.9em;
+      text-align: center;
+      text-indent: 15px;
+      }
+
+      .buttonDownload:hover {
+      background-color: #333;
+      color: white;
+      }
+
+      .buttonDownload:before, .buttonDownload:after {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 15px;
+      top: 52%;
+      }
+
+      /* Download box shape  */
+      .buttonDownload:before {
+      width: 10px;
+      height: 2px;
+      border-style: solid;
+      border-width: 0 2px 2px;
+      }
+
+      /* Download arrow shape */
+      .buttonDownload:after {
+      width: 0;
+      height: 0;
+      margin-left: 3px;
+      margin-top: -7px;
+
+      border-style: solid;
+      border-width: 4px 4px 0 4px;
+      border-color: transparent;
+      border-top-color: inherit;
+
+      animation: downloadArrow 2s linear infinite;
+      animation-play-state: paused;
+      }
+
+      .buttonDownload:hover:before {
+      border-color: #4CC713;
+      }
+
+      .buttonDownload:hover:after {
+      border-top-color: #4CC713;
+      animation-play-state: running;
+      }
+
+      /* keyframes for the download icon anim */
+      @keyframes downloadArrow {
+      /* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+      0% {
+        margin-top: -7px;
+        opacity: 1;
+      }
+
+      0.001% {
+        margin-top: -15px;
+        opacity: 0;
+      }
+
+      50% {
+        opacity: 1;
+      }
+
+      100% {
+        margin-top: 0;
+        opacity: 0;
+      }
+      }
+    </style>
   </head>
   <body>
     <h1>BunkMate App - to help you bunk wisely!</h1>
+    <hr/>
     <p>Ever got confused with calculating your attendance and checking how many classes you can bunk or how many classes you have to attend? well, you got in right place! download this app
         and Enjoy hassle free calculation and get classes you can bunk without getting below your attendance requirement.</p>
+        <a href='download/app.apk' target="_blank" class="buttonDownload" download>Download App(APK)</a>
+        <hr/>
+    <center>
+      <img src='images/1.png' width="140vw"> &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='images/2.png' width="140vw"> &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='images/3.png' width="140vw"> &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src='images/4.png' width="140vw"> &nbsp;&nbsp;&nbsp;&nbsp;
+    </center>
+    <br><br>
+    <hr/>
+    Feedbacks/support - please reach me<br/>
+    <a href='https://facebook.com/nikhiltanni' target="_blank">facebook:/nikhiltanni</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href='https://nikhiltanni.azurewebsites.net' target="_blank">Nikhil Tanni</a>
   </body>
 </html>
