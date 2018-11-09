@@ -101,14 +101,45 @@
         opacity: 0;
       }
       }
+      
+      .button-success,
+        .button-error,
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-success {
+            background: rgb(28, 184, 65); /* this is a green */
+        }
+
+        .button-error {
+            background: rgb(202, 60, 60); /* this is a maroon */
+        }
+
+        .button-warning {
+            background: rgb(223, 117, 20); /* this is an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
     </style>
   </head>
   <body>
     <h1>BunkMate App - to help you bunk wisely!</h1>
     <hr/>
     <p>Ever got confused with calculating your attendance and checking how many classes you can bunk or how many classes you have to attend? well, you got in right place! download this app
-        and Enjoy hassle free calculation and get classes you can bunk without getting below your attendance requirement.</p>
-        <a href='download/app.apk' target="_blank" class="buttonDownload" download>Download App(APK)</a>
+        and Enjoy hassle free calculation and get classes you can bunk without getting below your attendance requirement.
+        <br/>
+      <button class="button-success pure-button">Ad free</button>
+      <button class="button-error pure-button">Light Weight App</button>
+      <button class="button-warning pure-button">Ease of use</button>
+      <button class="button-secondary pure-button">Offline access</button>
+    </p>
+        <a href='app.apk' target="_blank" class="buttonDownload" download>Download App(APK)</a>
         <hr/>
     <a href='webapp/index.html'><button>Webapp / Demo</button></a>
         <hr/>
