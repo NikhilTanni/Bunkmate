@@ -17,10 +17,10 @@ follow the instructions.
 
 ## Running the tests
 
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/1.png | width=50 "Screenshot 1")
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/2.png | width=50 "Screenshot 2")
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/3.png | width=50 "Screenshot 3")
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/4.png | width=50 "Screenshot 4")
+![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/1.png "Screenshot 1"){:width="20%"}
+![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/2.png "Screenshot 2"){:width="20%"}
+![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/3.png "Screenshot 3"){:width="20%"}
+![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/4.png "Screenshot 4"){:width="20%"}
 
 
 
