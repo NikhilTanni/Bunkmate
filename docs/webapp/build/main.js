@@ -148,7 +148,7 @@ var HomePage = /** @class */ (function () {
             var x = (100 * parseInt(this.present) - parseInt(target_att) * parseInt(this.conducted)) / parseInt(target_att);
             if (parseInt(x) == 0) {
                 //handling zero error
-                this.result['emotion'] = "critical! you can bunk - " + x + " classes!!";
+                this.result['emotion'] = "critical! you can bunk " + parseInt(x) + " classes!!";
                 this.result['icon'] = "thumbs-down";
                 this.result['iconcolor'] = "red";
                 this.result['att'] = "Your current attendance is " + att_per + "%";
