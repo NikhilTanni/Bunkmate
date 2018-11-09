@@ -61,4 +61,5 @@
         <variable name="GMS_VERSION" value="11.0.1" />
     </plugin>
     <allow-navigation href="http://172.0.0.100:8100" sessionid="da8f47be" />
+    <engine name="browser" spec="~5.0.4" />
 </widget>

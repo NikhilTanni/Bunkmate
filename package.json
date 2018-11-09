@@ -57,6 +57,9 @@
       "cordova-plugin-google-analytics": {
         "GMS_VERSION": "11.0.1"
       }
-    }
+    },
+    "platforms": [
+      "browser"
+    ]
   }
 }
