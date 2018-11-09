@@ -17,11 +17,10 @@ follow the instructions.
 
 ## Running the tests
 
-<img src="https://nikhiltanni.github.io/Bunkmate/images/1.png" width="20%" />
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/1.png "Screenshot 1"){:width="20%"}
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/2.png "Screenshot 2"){:width="20%"}
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/3.png "Screenshot 3"){:width="20%"}
-![Screenshot of the app](https://nikhiltanni.github.io/Bunkmate/images/4.png "Screenshot 4"){:width="20%"}
+<a href="https://nikhiltanni.github.io/Bunkmate/images/1.png" target="_blank"><img src="https://nikhiltanni.github.io/Bunkmate/images/1.png" width="20%" /></a>
+<a href="https://nikhiltanni.github.io/Bunkmate/images/2.png" target="_blank"><img src="https://nikhiltanni.github.io/Bunkmate/images/2.png" width="20%" /></a>
+<a href="https://nikhiltanni.github.io/Bunkmate/images/3.png" target="_blank"><img src="https://nikhiltanni.github.io/Bunkmate/images/3.png" width="20%" /></a>
+<a href="https://nikhiltanni.github.io/Bunkmate/images/4.png" target="_blank"><img src="https://nikhiltanni.github.io/Bunkmate/images/4.png" width="20%" /></a>
 
 
 
