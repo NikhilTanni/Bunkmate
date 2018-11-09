@@ -1,1 +1,380 @@
-webpackJsonp([0],{125:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=125},155:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=155},185:function(l,n,u){"use strict";function t(l){return r._19(0,[(l()(),r.Z(0,0,null,null,2,"ion-nav",[],null,null,null,I.b,I.a)),r._14(6144,null,j.a,null,[w.a]),r.Y(2,4374528,null,0,w.a,[[2,z.a],[2,M.a],P.a,B.a,x.a,r.j,r.u,r.z,r.i,T.l,V.a,[2,A.a],D.a,r.k],{root:[0,"root"]},null),(l()(),r._18(-1,null,["\n"]))],function(l,n){l(n,2,0,n.component.rootPage)},null)}function e(l){return r._19(0,[(l()(),r.Z(0,0,null,null,1,"div",[["class","info_modal_container"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.toggle_mod_info()&&t}return t},null,null)),(l()(),r._18(-1,null,["\n"]))],null,null)}function a(l){return r._19(0,[(l()(),r.Z(0,0,null,null,19,"div",[["class","info_modal"]],null,null,null,null,null)),(l()(),r._18(-1,null,["\n    "])),(l()(),r.Z(2,0,null,null,1,"h2",[["style","text-align:center;border-bottom:1px solid grey"]],null,null,null,null,null)),(l()(),r._18(-1,null,["BunkMate app"])),(l()(),r._18(-1,null,["\n    "])),(l()(),r.Z(5,0,null,null,13,"h4",[["style","text-align:center"]],null,null,null,null,null)),(l()(),r._18(-1,null,["\n      Designed & developed by Nikhil. Stay tuned for more apps!"])),(l()(),r.Z(7,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),r._18(-1,null,["\n      "])),(l()(),r.Z(9,0,null,null,3,"span",[["style","font-size:250%;"]],null,null,null,null,null)),(l()(),r.Z(10,0,null,null,2,"a",[["href","http://facebook.com/nikhiltanni"]],null,null,null,null,null)),(l()(),r.Z(11,0,null,null,1,"ion-icon",[["name","logo-facebook"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Y(12,147456,null,0,L.a,[B.a,r.j,r.z],{name:[0,"name"]},null),(l()(),r._18(-1,null,["   \n      "])),(l()(),r.Z(14,0,null,null,3,"span",[["style","font-size:250%"]],null,null,null,null,null)),(l()(),r.Z(15,0,null,null,2,"a",[["href","#"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.mail("nikhiltanni97@gmail.com?subject=Bunkmate%20app%20")&&t}return t},null,null)),(l()(),r.Z(16,0,null,null,1,"ion-icon",[["name","md-mail"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Y(17,147456,null,0,L.a,[B.a,r.j,r.z],{name:[0,"name"]},null),(l()(),r._18(-1,null,["\n    "])),(l()(),r._18(-1,null,["\n  "]))],function(l,n){l(n,12,0,"logo-facebook");l(n,17,0,"md-mail")},function(l,n){l(n,11,0,r._11(n,12)._hidden);l(n,16,0,r._11(n,17)._hidden)})}function o(l){return r._19(0,[r._16(402653184,1,{myInput:0}),(l()(),r.Z(1,0,null,null,9,"ion-fab",[["bottom",""],["right",""]],null,null,null,O.b,O.a)),r.Y(2,1228800,null,2,q.a,[x.a],null,null),r._16(335544320,2,{_mainButton:0}),r._16(603979776,3,{_fabLists:1}),(l()(),r._18(-1,0,["\n  "])),(l()(),r.Z(6,0,null,0,3,"button",[["ion-fab",""],["mini",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.toggle_mod_info()&&t}return t},F.b,F.a)),r.Y(7,49152,[[2,4]],0,N.a,[B.a,r.j,r.z],null,null),(l()(),r.Z(8,0,null,0,1,"ion-icon",[["name","ios-information-circle-outline"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Y(9,147456,null,0,L.a,[B.a,r.j,r.z],{name:[0,"name"]},null),(l()(),r._18(-1,0,["\n"])),(l()(),r._18(-1,null,["\n"])),(l()(),r.Z(12,0,null,null,10,"ion-fab",[["bottom",""],["left",""]],null,null,null,O.b,O.a)),r.Y(13,1228800,null,2,q.a,[x.a],null,null),r._16(335544320,4,{_mainButton:0}),r._16(603979776,5,{_fabLists:1}),(l()(),r._18(-1,0,["\n  "])),(l()(),r.Z(17,0,null,0,4,"a",[["href","/app.apk"]],null,null,null,null,null)),(l()(),r.Z(18,0,null,null,3,"button",[["color","secondary"],["ion-fab",""],["mini",""]],null,null,null,F.b,F.a)),r.Y(19,49152,[[4,4]],0,N.a,[B.a,r.j,r.z],{color:[0,"color"]},null),(l()(),r.Z(20,0,null,0,1,"ion-icon",[["name","logo-android"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r.Y(21,147456,null,0,L.a,[B.a,r.j,r.z],{name:[0,"name"]},null),(l()(),r._18(-1,0,["\n"])),(l()(),r._18(-1,null,["\n"])),(l()(),r.U(16777216,null,null,1,null,e)),r.Y(25,16384,null,0,G.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null),(l()(),r._18(-1,null,["\n  "])),(l()(),r.U(16777216,null,null,1,null,a)),r.Y(28,16384,null,0,G.i,[r.I,r.F],{ngIf:[0,"ngIf"]},null),(l()(),r._18(-1,null,["\n"])),(l()(),r.Z(30,0,null,null,175,"ion-content",[["padding-top",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,S.b,S.a)),r.Y(31,4374528,null,0,W.a,[B.a,x.a,D.a,r.j,r.z,P.a,H.a,r.u,[2,z.a],[2,M.a]],null,null),(l()(),r._18(-1,1,["\n\n  "])),(l()(),r.Z(33,0,null,1,0,"hr",[],null,null,null,null,null)),(l()(),r._18(-1,1,["\n  "])),(l()(),r.Z(35,0,null,1,4,"h1",[["padding",""],["style","color:rgb(255, 191, 0)"]],null,null,null,null,null)),(l()(),r._18(-1,null,["BU"])),(l()(),r.Z(37,0,null,null,1,"span",[["style","color:#0080ff"]],null,null,null,null,null)),(l()(),r._18(-1,null,["N"])),(l()(),r._18(-1,null,["KMATE - Help you Bunk!"])),(l()(),r._18(-1,1,["\n\n  "])),(l()(),r.Z(41,0,null,1,56,"ion-card",[],null,null,null,null,null)),r.Y(42,16384,null,0,K.a,[B.a,r.j,r.z],null,null),(l()(),r._18(-1,null,["\n    "])),(l()(),r.Z(44,0,null,null,52,"ion-card-content",[],null,null,null,null,null)),r.Y(45,16384,null,0,X.a,[B.a,r.j,r.z],null,null),(l()(),r._18(-1,null,["\n        "])),(l()(),r.Z(47,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,J.b,J.a)),r.Y(48,1097728,null,3,R.a,[Q.a,B.a,r.j,r.z,[2,$.a]],null,null),r._16(335544320,6,{contentLabel:0}),r._16(603979776,7,{_buttons:1}),r._16(603979776,8,{_icons:1}),r.Y(52,16384,null,0,ll.a,[],null,null),(l()(),r._18(-1,2,["\n          "])),(l()(),r.Z(54,0,null,1,8,"ion-label",[["stacked",""],["style","color: black"]],null,null,null,null,null)),r.Y(55,16384,[[6,4]],0,nl.a,[B.a,r.j,r.z,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),r.Z(56,0,null,null,6,"b",[],null,null,null,null,null)),(l()(),r.Z(57,0,null,null,1,"span",[["style","color:rgb(255, 191, 0)"]],null,null,null,null,null)),(l()(),r._18(-1,null,["C"])),(l()(),r._18(-1,null,["lasses "])),(l()(),r.Z(60,0,null,null,1,"span",[["style","color:rgb(255, 191, 0)"]],null,null,null,null,null)),(l()(),r._18(-1,null,["C"])),(l()(),r._18(-1,null,["onducted"])),(l()(),r._18(-1,2,["\n          "])),(l()(),r.Z(64,0,null,3,4,"ion-input",[["autofocus",""],["placeholder","# of classes conducted"],["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keyup"]],function(l,n,u){var t=!0,e=l.component;if("ngModelChange"===n){t=!1!==(e.conducted=u)&&t}if("keyup"===n){t=!1!==e.check_valid_input()&&t}return t},ul.b,ul.a)),r.Y(65,671744,null,0,tl.h,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),r._14(2048,null,tl.f,null,[tl.h]),r.Y(67,16384,null,0,tl.g,[tl.f],null,null),r.Y(68,5423104,[[1,4],["conducted_inp",4]],0,el.a,[B.a,x.a,Q.a,P.a,r.j,r.z,[2,W.a],[2,R.a],[2,tl.f],D.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),r._18(-1,2,["\n        "])),(l()(),r._18(-1,null,["\n        "])),(l()(),r.Z(71,0,null,null,0,"hr",[],null,null,null,null,null)),(l()(),r._18(-1,null,["\n        "])),(l()(),r.Z(73,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,J.b,J.a)),r.Y(74,1097728,null,3,R.a,[Q.a,B.a,r.j,r.z,[2,$.a]],null,null),r._16(335544320,9,{contentLabel:0}),r._16(603979776,10,{_buttons:1}),r._16(603979776,11,{_icons:1}),r.Y(78,16384,null,0,ll.a,[],null,null),(l()(),r._18(-1,2,["\n          "])),(l()(),r.Z(80,0,null,1,8,"ion-label",[["stacked",""],["style","color: black"]],null,null,null,null,null)),r.Y(81,16384,[[9,4]],0,nl.a,[B.a,r.j,r.z,[8,null],[8,""],[8,null],[8,null]],null,null),(l()(),r.Z(82,0,null,null,6,"b",[],null,null,null,null,null)),(l()(),r.Z(83,0,null,null,1,"span",[["style","color:rgb(255, 191, 0)"]],null,null,null,null,null)),(l()(),r._18(-1,null,["C"])),(l()(),r._18(-1,null,["lasses "])),(l()(),r.Z(86,0,null,null,1,"span",[["style","color:rgb(255, 191, 0)"]],null,null,null,null,null)),(l()(),r._18(-1,null,["P"])),(l()(),r._18(-1,null,["resent"])),(l()(),r._18(-1,2,["\n          "])),(l()(),r.Z(90,0,null,3,4,"ion-input",[["placeholder","# of classes present"],["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keyup"]],function(l,n,u){var t=!0,e=l.component;if("ngModelChange"===n){t=!1!==(e.present=u)&&t}if("keyup"===n){t=!1!==e.check_valid_input()&&t}return t},ul.b,ul.a)),r.Y(91,671744,null,0,tl.h,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),r._14(2048,null,tl.f,null,[tl.h]),r.Y(93,16384,null,0,tl.g,[tl.f],null,null),r.Y(94,5423104,null,0,el.a,[B.a,x.a,Q.a,P.a,r.j,r.z,[2,W.a],[2,R.a],[2,tl.f],D.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),r._18(-1,2,["\n        "])),(l()(),r._18(-1,null,["\n    "])),(l()(),r._18(-1,null,["\n  "])),(l()(),r._18(-1,1,["\n    "])),(l()(),r.Z(99,0,null,1,70,"ion-card",[],null,null,null,null,null)),r.Y(100,16384,null,0,K.a,[B.a,r.j,r.z],null,null),(l()(),r._18(-1,null,["\n      "])),(l()(),r.Z(102,0,null,null,66,"ion-item",[["class","radio_inp item item-block"]],null,null,null,J.b,J.a)),r.Y(103,1097728,null,3,R.a,[Q.a,B.a,r.j,r.z,[2,$.a]],null,null),r._16(335544320,12,{contentLabel:0}),r._16(603979776,13,{_buttons:1}),r._16(603979776,14,{_icons:1}),r.Y(107,16384,null,0,ll.a,[],null,null),(l()(),r._18(-1,2,["\n        "])),(l()(),r.Z(109,0,null,2,16,"div",[["class","radio"]],null,null,null,null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(111,0,null,null,0,"input",[["id","radio-50"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(50)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(113,0,null,null,1,"label",[["class","radio-label"],["for","radio-50"]],null,null,null,null,null)),(l()(),r._18(-1,null,["50%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(116,0,null,null,0,"input",[["id","radio-60"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(60)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(118,0,null,null,1,"label",[["class","radio-label"],["for","radio-60"]],null,null,null,null,null)),(l()(),r._18(-1,null,["60%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(121,0,null,null,0,"input",[["id","radio-70"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(70)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(123,0,null,null,1,"label",[["class","radio-label"],["for","radio-70"]],null,null,null,null,null)),(l()(),r._18(-1,null,["70%"])),(l()(),r._18(-1,null,["\n        "])),(l()(),r._18(-1,2,["\n        "])),(l()(),r.Z(127,0,null,2,16,"div",[["class","radio"]],null,null,null,null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(129,0,null,null,0,"input",[["id","radio-75"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(75)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(131,0,null,null,1,"label",[["class","radio-label"],["for","radio-75"]],null,null,null,null,null)),(l()(),r._18(-1,null,["75%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(134,0,null,null,0,"input",[["id","radio-80"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(80)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(136,0,null,null,1,"label",[["class","radio-label"],["for","radio-80"]],null,null,null,null,null)),(l()(),r._18(-1,null,["80%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(139,0,null,null,0,"input",[["checked",""],["id","radio-85"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(85)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(141,0,null,null,1,"label",[["class","radio-label"],["for","radio-85"]],null,null,null,null,null)),(l()(),r._18(-1,null,["85%"])),(l()(),r._18(-1,null,["\n        "])),(l()(),r._18(-1,2,["\n        "])),(l()(),r.Z(145,0,null,2,22,"div",[["class","radio"]],null,null,null,null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(147,0,null,null,0,"input",[["id","radio-90"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(90)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(149,0,null,null,1,"label",[["class","radio-label"],["for","radio-90"]],null,null,null,null,null)),(l()(),r._18(-1,null,["90%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(152,0,null,null,0,"input",[["id","radio-95"],["name","radio_percent"],["type","radio"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(95)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(154,0,null,null,1,"label",[["class","radio-label"],["for","radio-95"]],null,null,null,null,null)),(l()(),r._18(-1,null,["95%"])),(l()(),r._18(-1,null,["\n\n          "])),(l()(),r.Z(157,0,null,null,0,"input",[["id","radio-cus"],["name","radio_percent"],["type","radio"]],[[8,"checked",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.radio_change(999)&&t}return t},null,null)),(l()(),r._18(-1,null,["\n          "])),(l()(),r.Z(159,0,null,null,7,"label",[["class","radio-label"],["for","radio-cus"]],null,null,null,null,null)),(l()(),r.Z(160,0,null,null,6,"input",[["class","radio_cus_input"],["placeholder","other"],["type","number"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"keyup"],[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"],[null,"change"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==r._11(l,161)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==r._11(l,161).onTouched()&&t}if("compositionstart"===n){t=!1!==r._11(l,161)._compositionStart()&&t}if("compositionend"===n){t=!1!==r._11(l,161)._compositionEnd(u.target.value)&&t}if("change"===n){t=!1!==r._11(l,162).onChange(u.target.value)&&t}if("input"===n){t=!1!==r._11(l,162).onChange(u.target.value)&&t}if("blur"===n){t=!1!==r._11(l,162).onTouched()&&t}if("keyup"===n){t=!1!==e.radio_change(999)&&t}if("ngModelChange"===n){t=!1!==(e.percent_radio_cus=u)&&t}return t},null,null)),r.Y(161,16384,null,0,tl.b,[r.A,r.j,[2,tl.a]],null,null),r.Y(162,16384,null,0,tl.k,[r.A,r.j],null,null),r._14(1024,null,tl.e,function(l,n){return[l,n]},[tl.b,tl.k]),r.Y(164,671744,null,0,tl.h,[[8,null],[8,null],[8,null],[2,tl.e]],{model:[0,"model"]},{update:"ngModelChange"}),r._14(2048,null,tl.f,null,[tl.h]),r.Y(166,16384,null,0,tl.g,[tl.f],null,null),(l()(),r._18(-1,null,["\n\n\n        "])),(l()(),r._18(-1,2,["\n      "])),(l()(),r._18(-1,null,["\n    "])),(l()(),r._18(-1,1,["\n\n  "])),(l()(),r.Z(171,0,null,1,21,"ion-card",[],null,null,null,null,null)),r.Y(172,16384,null,0,K.a,[B.a,r.j,r.z],null,null),(l()(),r._18(-1,null,["\n    "])),(l()(),r.Z(174,0,null,null,17,"ion-card-content",[],null,null,null,null,null)),r.Y(175,16384,null,0,X.a,[B.a,r.j,r.z],null,null),(l()(),r._18(-1,null,["\n      "])),(l()(),r.Z(177,0,null,null,4,"h2",[["class","emotion_display"]],null,null,null,null,null)),(l()(),r.Z(178,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),r._18(179,null,["",""])),(l()(),r.Z(180,0,null,null,1,"ion-icon",[["role","img"],["style","margin-left:10px;"]],[[2,"hide",null]],null,null,null,null)),r.Y(181,147456,null,0,L.a,[B.a,r.j,r.z],{color:[0,"color"],name:[1,"name"]},null),(l()(),r.Z(182,0,null,null,0,"hr",[],null,null,null,null,null)),(l()(),r._18(-1,null,["\n      "])),(l()(),r.Z(184,0,null,null,2,"h2",[["class","att_display"]],null,null,null,null,null)),(l()(),r.Z(185,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),r._18(186,null,["",""])),(l()(),r._18(-1,null,["\n      "])),(l()(),r.Z(188,0,null,null,2,"h2",[["class","msg_display"]],null,null,null,null,null)),(l()(),r.Z(189,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),r._18(190,null,["",""])),(l()(),r._18(-1,null,["\n    "])),(l()(),r._18(-1,null,["\n  "])),(l()(),r._18(-1,1,["\n    "])),(l()(),r.Z(194,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(195,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(196,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(197,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(198,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r._18(-1,1,["\n    "])),(l()(),r.Z(200,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(201,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(202,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(203,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r.Z(204,0,null,1,0,"br",[],null,null,null,null,null)),(l()(),r._18(-1,1,["\n"])),(l()(),r._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,9,0,"ios-information-circle-outline");l(n,19,0,"secondary");l(n,21,0,"logo-android");l(n,25,0,1==u.mod_info);l(n,28,0,1==u.mod_info);l(n,65,0,u.conducted);l(n,68,0,"number","# of classes conducted");l(n,91,0,u.present);l(n,94,0,"number","# of classes present");l(n,164,0,u.percent_radio_cus);l(n,181,0,r._2(1,"",u.result.iconcolor,""),r._2(1,"",u.result.icon,""))},function(l,n){var u=n.component;l(n,8,0,r._11(n,9)._hidden);l(n,20,0,r._11(n,21)._hidden);l(n,30,0,r._11(n,31).statusbarPadding,r._11(n,31)._hasRefresher);l(n,64,0,r._11(n,67).ngClassUntouched,r._11(n,67).ngClassTouched,r._11(n,67).ngClassPristine,r._11(n,67).ngClassDirty,r._11(n,67).ngClassValid,r._11(n,67).ngClassInvalid,r._11(n,67).ngClassPending);l(n,90,0,r._11(n,93).ngClassUntouched,r._11(n,93).ngClassTouched,r._11(n,93).ngClassPristine,r._11(n,93).ngClassDirty,r._11(n,93).ngClassValid,r._11(n,93).ngClassInvalid,r._11(n,93).ngClassPending);l(n,157,0,999==u.percent_mode);l(n,160,0,r._11(n,166).ngClassUntouched,r._11(n,166).ngClassTouched,r._11(n,166).ngClassPristine,r._11(n,166).ngClassDirty,r._11(n,166).ngClassValid,r._11(n,166).ngClassInvalid,r._11(n,166).ngClassPending);l(n,179,0,u.result.emotion);l(n,180,0,r._11(n,181)._hidden);l(n,186,0,u.result.att);l(n,190,0,u.result.msg)})}Object.defineProperty(n,"__esModule",{value:!0});var i=u(31),r=u(0),s=(u(5),u(52),u(73)),c=u(74),_=u(75),d=function(){function l(l,n,u){this.navCtrl=l,this.alertCtrl=n,this.ga=u,this.percent_mode=0,this.percent_radio=85,this.mod_info=0,this.error={conducted:"",present:""},this.result={emotion:"input details to calculate attendance!!",att:"",msg:"--",icon:"md-happy",iconcolor:"primary"},this.conducted="",this.present=""}return l.prototype.ionViewDidLoad=function(){var l=this;setTimeout(function(){l.myInput.setFocus()},500),this.init_ga()},l.prototype.init_ga=function(){var l=this;this.ga.startTrackerWithId("UA-127384723-3").then(function(){console.log("Google analytics is ready now"),l.ga.trackView("Bunkmate")}).catch(function(l){return console.log("Error starting GoogleAnalytics",l)})},l.prototype.check_valid_input=function(){""==this.conducted||this.conducted<=0?(this.result.emotion="enter number of classes conducted",this.result.icon="md-create",this.result.iconcolor="warning",this.result.att="",this.result.msg="--"):""==this.present||this.present<0?(this.result.emotion="enter number of classes present",this.result.icon="md-create",this.result.iconcolor="warning",this.result.att="",this.result.msg="--"):parseInt(this.conducted)<parseInt(this.present)?(this.result.emotion="Error! check if you have exchanged conducted classes with present classes!",this.result.icon="md-swap",this.result.iconcolor="warning",this.result.att="",this.result.msg="--"):parseInt(this.conducted)>0&&parseInt(this.present)>0?(this.result.emotion="Calculating...",this.calculate_att()):this.calculate_att()},l.prototype.calculate_att=function(){var l=parseInt(this.present)/parseInt(this.conducted);l*=100,this.result.emotion="--";var n=this.percent_radio;if(parseInt(n)>l){var u=(parseInt(n)*parseInt(this.conducted)-100*parseInt(this.present))/(100-parseInt(n));isNaN(parseInt(u))?(this.result.emotion="Oops! you can't bunk now.",this.result.icon="thumbs-down",this.result.iconcolor="danger",this.result.att="Your current attendance is "+l+"%",this.result.msg="you can never make it to "+parseInt(n)+"%."):(this.result.emotion="Oops! you can't bunk now.",this.result.icon="thumbs-down",this.result.iconcolor="danger",this.result.att="Your current attendance is "+l+"%",parseFloat(u)%1>=.1&&(u+=1),this.result.msg="you need to attend "+parseInt(u)+" more classes to get attendance back to "+n+"%")}else if(parseInt(n)<parseInt(l)){u=(100*parseInt(this.present)-parseInt(n)*parseInt(this.conducted))/parseInt(n);0==parseInt(u)?(this.result.emotion="critical! you can bunk - "+u+" classes!!",this.result.icon="thumbs-down",this.result.iconcolor="red",this.result.att="Your current attendance is "+l+"%",this.result.msg="you are at edge of your attendance requirement - you can't bunk currently! try after some more classes"):(this.result.emotion="Yay! you can bunk",this.result.icon="thumbs-up",this.result.iconcolor="secondary",this.result.att="Your current attendance is "+l+"%",this.result.msg="you can bunk upto "+parseInt(u)+" classes and yet still maintain attendance at "+n+"%")}else this.result.emotion="Bunk/Not-Bunk - make your decision!!",this.result.icon="warning",this.result.iconcolor="warning",this.result.att="Your current attendance is "+l+"%",this.result.msg="you are at edge of your attendance requirement - try after some more classes!"},l.prototype.validate_input=function(l){return parseInt(this.conducted)<parseInt(this.present)?(this.showAlert("Invalid input","looks like you have exchanged values of conducted and present classes",1),!1):!(""!=this.percent_radio_cus&&999==l&&parseInt(this.percent_radio_cus)>100)||(this.result.emotion="More than 100%?",this.result.icon="thumbs-down",this.result.iconcolor="danger",this.result.att="",this.result.msg="--",!1)},l.prototype.radio_change=function(l){if(this.validate_input(l))if(999==l){if(this.percent_mode=l,this.percent_radio_cus<=0)return this.result.emotion="Enter valid attendance!!",this.result.icon="thumbs-down",this.result.iconcolor="danger",this.result.att="",void(this.result.msg="how can you expect negative/zero attendance huh??");this.percent_radio=this.percent_radio_cus,this.check_valid_input()}else this.percent_mode=l,this.percent_radio_cus="",this.percent_radio=l,this.check_valid_input()},l.prototype.toggle_mod_info=function(){this.mod_info=0==this.mod_info?1:0},l.prototype.showAlert=function(l,n,u){if(1!=u){this.alertCtrl.create({title:l,subTitle:n,buttons:["OK"]}).present()}},l.prototype.mail=function(l){window.open("mailto:"+l)},l}(),p=function(){return function(l,n,u){this.rootPage=d,l.ready().then(function(){n.overlaysWebView(!0),n.styleDefault(),n.backgroundColorByHexString("#ffbf00"),u.hide()})}}(),h=function(){return function(){}}(),m=u(45),f=u(218),g=u(219),b=u(220),y=u(221),Z=u(222),k=u(223),v=u(224),Y=u(225),C=u(226),I=u(227),j=u(35),w=u(49),z=u(4),M=u(19),P=u(8),B=u(1),x=u(3),T=u(7),V=u(27),A=u(15),D=u(9),E=r.X({encapsulation:2,styles:[],data:{}}),U=r.V("ng-component",p,function(l){return r._19(0,[(l()(),r.Z(0,0,null,null,1,"ng-component",[],null,null,null,t,E)),r.Y(1,49152,null,0,p,[x.a,c.a,s.a],null,null)],null,null)},{},{},[]),L=u(34),O=u(228),q=u(60),F=u(229),N=u(41),G=u(13),S=u(230),W=u(21),H=u(29),K=u(86),X=u(87),J=u(184),R=u(17),Q=u(12),$=u(40),ll=u(62),nl=u(39),ul=u(231),tl=u(16),el=u(61),al=u(57),ol=r.X({encapsulation:2,styles:[],data:{}}),il=r.V("page-home",d,function(l){return r._19(0,[(l()(),r.Z(0,0,null,null,1,"page-home",[],null,null,null,o,ol)),r.Y(1,49152,null,0,d,[M.a,al.a,_.a],null,null)],null,null)},{},{},[]),rl=u(114),sl=u(84),cl=u(111),_l=u(30),dl=u(92),pl=u(182),hl=u(47),ml=u(42),fl=u(94),gl=u(58),bl=u(99),yl=u(110),Zl=u(106),kl=u(181),vl=u(112),Yl=u(25),Cl=u(93),Il=u(113),jl=r.W(h,[m.b],function(l){return r._7([r._8(512,r.i,r.S,[[8,[f.a,g.a,b.a,y.a,Z.a,k.a,v.a,Y.a,C.a,U,il]],[3,r.i],r.s]),r._8(5120,r.r,r._15,[[3,r.r]]),r._8(4608,G.k,G.j,[r.r,[2,G.s]]),r._8(5120,r.b,r._1,[]),r._8(5120,r.p,r._9,[]),r._8(5120,r.q,r._12,[]),r._8(4608,i.c,i.q,[G.c]),r._8(6144,r.D,null,[i.c]),r._8(4608,i.f,rl.a,[]),r._8(5120,i.d,function(l,n,u,t,e){return[new i.k(l,n),new i.o(u),new i.n(t,e)]},[G.c,r.u,G.c,G.c,i.f]),r._8(4608,i.e,i.e,[i.d,r.u]),r._8(135680,i.m,i.m,[G.c]),r._8(4608,i.l,i.l,[i.e,i.m]),r._8(6144,r.B,null,[i.l]),r._8(6144,i.p,null,[i.m]),r._8(4608,r.G,r.G,[r.u]),r._8(4608,i.h,i.h,[G.c]),r._8(4608,i.i,i.i,[G.c]),r._8(4608,tl.l,tl.l,[]),r._8(4608,tl.c,tl.c,[]),r._8(4608,sl.a,sl.a,[P.a,B.a]),r._8(4608,al.a,al.a,[P.a,B.a]),r._8(4608,cl.a,cl.a,[]),r._8(4608,Q.a,Q.a,[]),r._8(4608,_l.a,_l.a,[x.a]),r._8(4608,H.a,H.a,[B.a,x.a,r.u,D.a]),r._8(4608,dl.a,dl.a,[P.a,B.a]),r._8(5120,G.f,pl.b,[G.q,[2,G.a],B.a]),r._8(4608,G.e,G.e,[G.f]),r._8(5120,hl.b,hl.d,[P.a,hl.a]),r._8(5120,A.a,A.b,[P.a,hl.b,G.e,ml.b,r.i]),r._8(4608,fl.a,fl.a,[P.a,B.a,A.a]),r._8(4608,gl.a,gl.a,[P.a,B.a]),r._8(4608,bl.a,bl.a,[P.a,B.a,A.a]),r._8(4608,yl.a,yl.a,[B.a,x.a,D.a,P.a,T.l]),r._8(4608,Zl.a,Zl.a,[P.a,B.a]),r._8(4608,V.a,V.a,[x.a,B.a]),r._8(4608,c.a,c.a,[]),r._8(4608,s.a,s.a,[]),r._8(4608,_.a,_.a,[]),r._8(512,G.b,G.b,[]),r._8(512,r.k,kl.a,[]),r._8(256,B.b,{},[]),r._8(1024,vl.a,vl.b,[]),r._8(1024,x.a,x.b,[i.b,vl.a,r.u]),r._8(1024,B.a,B.c,[B.b,x.a]),r._8(512,D.a,D.a,[x.a]),r._8(512,Yl.a,Yl.a,[]),r._8(512,P.a,P.a,[B.a,x.a,[2,Yl.a]]),r._8(512,T.l,T.l,[P.a]),r._8(256,hl.a,{links:[]},[]),r._8(512,r.h,r.h,[]),r._8(512,Cl.a,Cl.a,[r.h]),r._8(1024,ml.b,ml.c,[Cl.a,r.o]),r._8(1024,r.c,function(l,n,u,t,e,a,o,r,s,c,_,d,p){return[i.s(l),Il.a(n),cl.b(u,t),yl.b(e,a,o,r,s),ml.d(c,_,d,p)]},[[2,r.t],B.a,x.a,D.a,B.a,x.a,D.a,P.a,T.l,B.a,hl.a,ml.b,r.u]),r._8(512,r.d,r.d,[[2,r.c]]),r._8(131584,r.f,r.f,[r.u,r.T,r.o,r.k,r.i,r.d]),r._8(512,r.e,r.e,[r.f]),r._8(512,i.a,i.a,[[3,i.a]]),r._8(512,tl.j,tl.j,[]),r._8(512,tl.d,tl.d,[]),r._8(512,tl.i,tl.i,[]),r._8(512,pl.a,pl.a,[]),r._8(512,h,h,[]),r._8(256,m.a,p,[]),r._8(256,G.a,"/",[])])});Object(r.M)(),Object(i.j)().bootstrapModuleFactory(jl)}},[185]);
+webpackJsonp([0],{
+
+/***/ 109:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 109;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 193:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_analytics__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, alertCtrl, ga) {
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+        this.ga = ga;
+        this.percent_mode = 0;
+        this.percent_radio = 85;
+        this.mod_info = 0;
+        this.error = { 'conducted': '', 'present': '' };
+        this.result = { 'emotion': 'input details to calculate attendance!!', 'att': '', 'msg': '--', 'icon': 'md-happy', 'iconcolor': 'primary' };
+        this.conducted = "";
+        this.present = "";
+    }
+    HomePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.myInput.setFocus();
+        }, 500);
+        this.init_ga();
+    };
+    HomePage.prototype.init_ga = function () {
+        var _this = this;
+        this.ga.startTrackerWithId('UA-127384723-3')
+            .then(function () {
+            console.log('Google analytics is ready now');
+            _this.ga.trackView('Bunkmate');
+            // Tracker is ready
+            // You can now track pages or set additional information such as AppVersion or UserId
+        })
+            .catch(function (e) { return console.log('Error starting GoogleAnalytics', e); });
+    };
+    HomePage.prototype.check_valid_input = function () {
+        if (this.conducted == "" || this.conducted <= 0) {
+            this.result['emotion'] = "enter number of classes conducted";
+            this.result['icon'] = "md-create";
+            this.result['iconcolor'] = "warning";
+            this.result['att'] = "";
+            this.result['msg'] = "--";
+        }
+        else if (this.present == "" || this.present < 0) {
+            this.result['emotion'] = "enter number of classes present";
+            this.result['icon'] = "md-create";
+            this.result['iconcolor'] = "warning";
+            this.result['att'] = "";
+            this.result['msg'] = "--";
+        }
+        else if (parseInt(this.conducted) < parseInt(this.present)) {
+            this.result['emotion'] = "Error! check if you have exchanged conducted classes with present classes!";
+            this.result['icon'] = "md-swap";
+            this.result['iconcolor'] = "warning";
+            this.result['att'] = "";
+            this.result['msg'] = "--";
+        }
+        else if (parseInt(this.conducted) > 0 && parseInt(this.present) > 0) {
+            this.result['emotion'] = "Calculating...";
+            this.calculate_att();
+        }
+        else {
+            this.calculate_att();
+        }
+    };
+    HomePage.prototype.calculate_att = function () {
+        var att_per = parseInt(this.present) / parseInt(this.conducted);
+        att_per = att_per * 100;
+        this.result['emotion'] = "--";
+        var target_att = this.percent_radio;
+        if (parseInt(target_att) > att_per) {
+            //how many claas to attend
+            var x = ((parseInt(target_att) * parseInt(this.conducted) - 100 * parseInt(this.present)) / (100 - parseInt(target_att)));
+            // alert(x);
+            if (isNaN(parseInt(x))) {
+                this.result['emotion'] = "Oops! you can't bunk now.";
+                this.result['icon'] = "thumbs-down";
+                this.result['iconcolor'] = "danger";
+                this.result['att'] = "Your current attendance is " + att_per + "%";
+                this.result['msg'] = "you can never make it to " + parseInt(target_att) + "%.";
+            }
+            else {
+                this.result['emotion'] = "Oops! you can't bunk now.";
+                this.result['icon'] = "thumbs-down";
+                this.result['iconcolor'] = "danger";
+                this.result['att'] = "Your current attendance is " + att_per + "%";
+                if (parseFloat(x) % 1 >= 0.1) {
+                    x = x + 1;
+                }
+                this.result['msg'] = "you need to attend " + parseInt(x) + " more classes to get attendance back to " + target_att + "%";
+            }
+        }
+        else if (parseInt(target_att) < parseInt(att_per)) {
+            //how many can we bunk
+            var x = (100 * parseInt(this.present) - parseInt(target_att) * parseInt(this.conducted)) / parseInt(target_att);
+            if (parseInt(x) == 0) {
+                //handling zero error
+                this.result['emotion'] = "critical! you can bunk - " + x + " classes!!";
+                this.result['icon'] = "thumbs-down";
+                this.result['iconcolor'] = "red";
+                this.result['att'] = "Your current attendance is " + att_per + "%";
+                this.result['msg'] = "you are at edge of your attendance requirement - you can't bunk currently! try after some more classes";
+            }
+            else {
+                this.result['emotion'] = "Yay! you can bunk";
+                this.result['icon'] = "thumbs-up";
+                this.result['iconcolor'] = "secondary";
+                this.result['att'] = "Your current attendance is " + att_per + "%";
+                this.result['msg'] = "you can bunk upto " + parseInt(x) + " classes and yet still maintain attendance at " + target_att + "%";
+            }
+        }
+        else {
+            //cant bunk now
+            this.result['emotion'] = "Bunk/Not-Bunk - make your decision!!";
+            this.result['icon'] = "warning";
+            this.result['iconcolor'] = "warning";
+            this.result['att'] = "Your current attendance is " + att_per + "%";
+            this.result['msg'] = "you are at edge of your attendance requirement - try after some more classes!";
+        }
+    };
+    HomePage.prototype.validate_input = function (k) {
+        if (parseInt(this.conducted) < parseInt(this.present)) {
+            this.showAlert("Invalid input", "looks like you have exchanged values of conducted and present classes", 1);
+            return false;
+        }
+        if (this.percent_radio_cus != "" && k == 999) {
+            if (parseInt(this.percent_radio_cus) > 100) {
+                // this.showAlert("More than 100%?","please check for attendance percentage you want to check for!!",1);
+                this.result['emotion'] = "More than 100%?", "please check for attendance percentage you want to check for!!";
+                this.result['icon'] = "thumbs-down";
+                this.result['iconcolor'] = "danger";
+                this.result['att'] = "";
+                this.result['msg'] = "--";
+                return false;
+            }
+        }
+        return true;
+    };
+    HomePage.prototype.radio_change = function (k) {
+        if (!this.validate_input(k)) {
+            return;
+        }
+        if (k == 999) {
+            this.percent_mode = k;
+            if (this.percent_radio_cus <= 0) {
+                this.result['emotion'] = "Enter valid attendance!!";
+                this.result['icon'] = "thumbs-down";
+                this.result['iconcolor'] = "danger";
+                this.result['att'] = "";
+                this.result['msg'] = "how can you expect negative/zero attendance huh??";
+                return;
+            }
+            this.percent_radio = this.percent_radio_cus;
+            this.check_valid_input();
+        }
+        else {
+            this.percent_mode = k;
+            this.percent_radio_cus = "";
+            this.percent_radio = k;
+            this.check_valid_input();
+        }
+    };
+    HomePage.prototype.toggle_mod_info = function () {
+        if (this.mod_info == 0) {
+            this.mod_info = 1;
+        }
+        else {
+            this.mod_info = 0;
+        }
+    };
+    HomePage.prototype.showAlert = function (title, msg, type) {
+        if (type == 1) {
+            return;
+        }
+        var alert = this.alertCtrl.create({
+            title: title,
+            subTitle: msg,
+            buttons: ['OK']
+        });
+        alert.present();
+    };
+    HomePage.prototype.mail = function (email) {
+        window.open('mailto:' + email);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('conducted_inp'),
+        __metadata("design:type", Object)
+    ], HomePage.prototype, "myInput", void 0);
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"/home/nikk/Downloads/bunkmate/bunkmate/src/pages/home/home.html"*/'<ion-fab bottom right>\n  <button ion-fab mini (click)="toggle_mod_info()"><ion-icon name="ios-information-circle-outline"></ion-icon></button>\n</ion-fab>\n<ion-fab bottom left>\n  <a href="/Bunkmate/app.apk"><button ion-fab mini color="secondary"><ion-icon name="logo-android"></ion-icon></button></a>\n</ion-fab>\n<div class="info_modal_container" *ngIf="mod_info==1" (click)="toggle_mod_info()">\n</div>\n  <div class="info_modal" *ngIf="mod_info==1">\n    <h2 style=\'text-align:center;border-bottom:1px solid grey\'>BunkMate app</h2>\n    <h4 style="text-align:center">\n      Designed & developed by Nikhil. Stay tuned for more apps!<br/>\n      <span style=\'font-size:250%;\'><a href="http://facebook.com/nikhiltanni"><ion-icon name="logo-facebook"></ion-icon></a></span> &nbsp;&nbsp;\n      <span style=\'font-size:250%\'><a href="#" (click)="mail(\'nikhiltanni97@gmail.com?subject=Bunkmate%20app%20\')"><ion-icon name="md-mail"></ion-icon></a></span>\n    </h4>\n  </div>\n<ion-content padding-top>\n\n  <hr/>\n  <h1 padding style="color:rgb(255, 191, 0)">BU<span style=\'color:#0080ff\'>N</span>KMATE - Help you Bunk!</h1>\n\n  <ion-card>\n    <ion-card-content>\n        <ion-item>\n          <ion-label stacked style="color: black"><b><span style="color:rgb(255, 191, 0)">C</span>lasses <span style="color:rgb(255, 191, 0)">C</span>onducted</b></ion-label>\n          <ion-input type="number" [(ngModel)]="conducted"#conducted_inp (keyup)="check_valid_input()" placeholder="# of classes conducted" autofocus></ion-input>\n        </ion-item>\n        <hr/>\n        <ion-item>\n          <ion-label stacked style="color: black"><b><span style="color:rgb(255, 191, 0)">C</span>lasses <span style="color:rgb(255, 191, 0)">P</span>resent</b></ion-label>\n          <ion-input type="number" [(ngModel)]="present" (keyup)="check_valid_input()" placeholder="# of classes present"></ion-input>\n        </ion-item>\n    </ion-card-content>\n  </ion-card>\n    <ion-card>\n      <ion-item class="radio_inp">\n        <div class="radio">\n          <input id="radio-50" name="radio_percent" type="radio" (click)="radio_change(50)">\n          <label for="radio-50" class="radio-label">50%</label>\n\n          <input id="radio-60" name="radio_percent" type="radio" (click)="radio_change(60)">\n          <label for="radio-60" class="radio-label">60%</label>\n\n          <input id="radio-70" name="radio_percent" type="radio" (click)="radio_change(70)">\n          <label for="radio-70" class="radio-label">70%</label>\n        </div>\n        <div class="radio">\n          <input id="radio-75" name="radio_percent" type="radio" (click)="radio_change(75)">\n          <label for="radio-75" class="radio-label">75%</label>\n\n          <input id="radio-80" name="radio_percent" type="radio" (click)="radio_change(80)">\n          <label for="radio-80" class="radio-label">80%</label>\n\n          <input id="radio-85" name="radio_percent" type="radio" checked  (click)="radio_change(85)">\n          <label for="radio-85" class="radio-label">85%</label>\n        </div>\n        <div class="radio">\n          <input id="radio-90" name="radio_percent" type="radio" (click)="radio_change(90)">\n          <label for="radio-90" class="radio-label">90%</label>\n\n          <input id="radio-95" name="radio_percent" type="radio"  (click)="radio_change(95)">\n          <label for="radio-95" class="radio-label">95%</label>\n\n          <input id="radio-cus" name="radio_percent" type="radio"  (click)="radio_change(999)" [checked]="percent_mode==999">\n          <label for="radio-cus" class="radio-label"><input type="number" (keyup)="radio_change(999)" class="radio_cus_input" [(ngModel)]="percent_radio_cus" placeholder="other"/></label>\n\n\n        </div>\n      </ion-item>\n    </ion-card>\n\n  <ion-card>\n    <ion-card-content>\n      <h2 class="emotion_display"><span>{{result.emotion}}</span><ion-icon style="margin-left:10px;" name="{{result.icon}}" color="{{result.iconcolor}}"></ion-icon></h2><hr/>\n      <h2 class="att_display"><span>{{result.att}}</span></h2>\n      <h2 class="msg_display"><span>{{result.msg}}</span></h2>\n    </ion-card-content>\n  </ion-card>\n    <br/><br/><br/><br/><br/>\n    <br/><br/><br/><br/><br/>\n</ion-content>\n'/*ion-inline-end:"/home/nikk/Downloads/bunkmate/bunkmate/src/pages/home/home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_analytics__["a" /* GoogleAnalytics */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(218);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 218:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(268);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_google_analytics__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_7__ionic_native_google_analytics__["a" /* GoogleAnalytics */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 268:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(193);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            statusBar.overlaysWebView(true);
+            statusBar.styleDefault();
+            statusBar.backgroundColorByHexString("#ffbf00");
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/nikk/Downloads/bunkmate/bunkmate/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/nikk/Downloads/bunkmate/bunkmate/src/app/app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ })
+
+},[195]);
+//# sourceMappingURL=main.js.map
