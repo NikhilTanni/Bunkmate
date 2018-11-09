@@ -1,6 +1,9 @@
 <ion-fab bottom right>
   <button ion-fab mini (click)="toggle_mod_info()"><ion-icon name="ios-information-circle-outline"></ion-icon></button>
 </ion-fab>
+<!-- <ion-fab bottom left>
+  <a href="/app.apk"><button ion-fab mini color="secondary"><ion-icon name="logo-android"></ion-icon></button></a>
+</ion-fab> -->
 <div class="info_modal_container" *ngIf="mod_info==1" (click)="toggle_mod_info()">
 </div>
   <div class="info_modal" *ngIf="mod_info==1">
@@ -73,5 +76,6 @@
       <h2 class="msg_display"><span>{{result.msg}}</span></h2>
     </ion-card-content>
   </ion-card>
-
+    <br/><br/><br/><br/><br/>
+    <!-- <br/><br/><br/><br/><br/> -->
 </ion-content>

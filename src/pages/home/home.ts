@@ -106,11 +106,21 @@ export class HomePage {
     else if(parseInt(target_att)<parseInt(att_per)){
       //how many can we bunk
       var x:any =(100*parseInt(this.present) - parseInt(target_att)*parseInt(this.conducted))/parseInt(target_att);
-      this.result['emotion']="Yay! you can bunk";
-      this.result['icon']="thumbs-up";
-      this.result['iconcolor']="secondary";
-      this.result['att']="Your current attendance is "+att_per+"%";
-      this.result['msg']="you can bunk upto "+parseInt(x)+" classes and yet still maintain attendance at "+target_att+"%";
+      if(parseInt(x)==0){
+        //handling zero error
+        this.result['emotion']="critical! you can bunk - "+x+" classes!!";
+        this.result['icon']="thumbs-down";
+        this.result['iconcolor']="red";
+        this.result['att']="Your current attendance is "+att_per+"%";
+        this.result['msg']="you are at edge of your attendance requirement - you can't bunk currently! try after some more classes";
+      }
+      else{
+        this.result['emotion']="Yay! you can bunk";
+        this.result['icon']="thumbs-up";
+        this.result['iconcolor']="secondary";
+        this.result['att']="Your current attendance is "+att_per+"%";
+        this.result['msg']="you can bunk upto "+parseInt(x)+" classes and yet still maintain attendance at "+target_att+"%";
+      }
     }
     else{
       //cant bunk now
@@ -148,6 +158,14 @@ export class HomePage {
     }
     if(k==999){
       this.percent_mode=k;
+      if(this.percent_radio_cus<=0){
+        this.result['emotion']="Enter valid attendance!!";
+        this.result['icon']="thumbs-down";
+        this.result['iconcolor']="danger";
+        this.result['att']="";
+        this.result['msg']="how can you expect negative/zero attendance huh??";
+        return;
+      }
       this.percent_radio=this.percent_radio_cus;
       this.check_valid_input();
     }
